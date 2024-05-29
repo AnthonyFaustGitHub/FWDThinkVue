@@ -1,0 +1,101 @@
+export const ticketData = {
+  categories: [
+    {
+      category: 'Hardware'
+    },
+    {
+      category: 'Software'
+    },
+    {
+      category: 'Network'
+    },
+    {
+      category: 'In-Processing'
+    }
+  ],
+  types: [
+    {
+      category: 'Hardware',
+      types: [
+        {
+            type: "Laptop"
+        },
+        {
+            type: "Mobile"
+        },
+        {
+            type: "Peripherals"
+        },
+        {
+            type: "Desk Phone"
+        },
+        {
+            type: "Printers"
+        },
+        {
+            type: "Other"
+        }
+      ]
+    },
+    {
+      category: 'Software',
+      types: [
+        {
+            type: "Teams/Zoom"
+        },
+        {
+            type: "Mobile Blackberry"
+        },
+        {
+            type: "Adobe"
+        },
+        {
+            type: "Outlook"
+        },
+        {
+            type: "Microsoft Office"
+        },
+        {
+            type: "Other"
+        }
+      ]
+    },
+    {
+      category: 'Network',
+      types: [
+        {
+            type: "Network/Access"
+        },
+        {
+            type: "Connectivity"
+        },
+        {
+            type: "VPN"
+        },
+        {
+            type: "Drivers"
+        },
+        {
+            type: "Other"
+        }
+      ]
+    },
+    {
+      category: 'In-Processing',
+      types: [
+        {
+            type: "Access Badge"
+        },
+        {
+            type: "Common Access Card (CAC)"
+        },
+        {
+            type: "SIPR"
+        },
+        {
+            type: "Trello"
+        }
+      ]
+    }
+  ]
+}
