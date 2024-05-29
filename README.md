@@ -17,10 +17,8 @@ This project is a Developer exercise designed and developed by Anthony Faust for
 I made the following decisions when developing this project.
 
 1. I decided to use Bootstrap to streamline the user interface design and to make the application responsive.
-2. I created a service layer to hold services I custom created for the application.
-3. I created a data layer to hold the json files which contain encapsulated data.
-4. I used Reactive Forms in Angular to bind the user input with the form data I used to populate the dropdown menus and the ticket details summary page.
-5. I used interfaces to impose type safety on my components, thereby reducing the risk of run-time errors.
+2. I created a data layer to hold the json files which contain encapsulated data.
+3. I used two-way data binding bind the user input with the form data I used to populate the dropdown menus and the ticket details summary page.
 
 Ideally, when the user submits the form data, that data will be persisted on the through a database or server side storage. Then, when the user visits the Ticket Details Summary page, the data is fetched through an API call to ensure the data is what was previously sent to the database. We can do this with noraml CRUD operations, but for this exercise, the data was persisted locally.
 
@@ -34,7 +32,7 @@ Third, I wrote JavaScript to mutate and modify data as needed to satisfy the pro
 
 ## 3. How to run this project locally
 
-Run `npm start` for a dev server. This command will automatically open `http://localhost:5173/`. The application will automatically reload if you change any of the source files.
+Run `npm start dev` for a dev server. This command will automatically open `http://localhost:5173/`. The application will automatically reload if you change any of the source files.
 
 ## 4. How to build this project
 
